@@ -16,3 +16,5 @@ namespace Entities.Concrete
 }
 
 // Bir class'ın default erişim bildirgeci internal dır.
+// Bir property'nin default erişim bildirgeci ise private dır.
+// internal access modifiers erişim türünde sadece aynı name space içerisinde bütün Class'larda erişim sağlanır.

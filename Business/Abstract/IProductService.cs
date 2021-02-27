@@ -6,7 +6,7 @@ using System.Text;
 namespace Business.Abstract
 {
     // Business iş katmanı Entity ve DataAccess katmanlarını kullanacağı için bu katmandaki projelere bağımlıdır.
-    // Business iş katmanındaki class yapılarıu genelde service diye adlandırılır.
+    // Business iş katmanındaki class yapıları genelde service diye adlandırılır.
     public interface IProductService
     {
         List<Product> GetAll();
